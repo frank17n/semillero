@@ -1,0 +1,390 @@
+/* =====================================
+   BOTÓN PRINCIPAL
+===================================== */
+
+.btn-principal {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 13px 23px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    font-weight: 700;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            var(--azul),
+            var(--morado)
+        );
+
+    border: none;
+
+    box-shadow:
+        0 8px 20px
+        rgba(37,99,235,0.22);
+
+    transition: 0.3s;
+}
+
+
+.btn-principal:hover {
+
+    color: white;
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(37,99,235,0.3);
+}
+
+
+/* =====================================
+   BOTÓN SECUNDARIO
+===================================== */
+
+.btn-secundario {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 11px 23px;
+
+    border-radius: 12px;
+
+    color: var(--azul);
+
+    font-weight: 700;
+
+    background: white;
+
+    border: 2px solid #bfdbfe;
+
+    transition: 0.3s;
+}
+
+
+.btn-secundario:hover {
+
+    color: white;
+
+    background: var(--azul);
+
+    border-color: var(--azul);
+
+    transform:
+        translateY(-3px);
+}
+
+
+/* =====================================
+   TARJETAS DE RECURSOS
+===================================== */
+
+.tarjeta-recurso {
+
+    position: relative;
+
+    height: 100%;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: white;
+
+    border: 1px solid var(--borde);
+
+    box-shadow:
+        0 7px 25px
+        rgba(15,23,42,0.06);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+    overflow: hidden;
+}
+
+
+/* línea superior */
+
+.tarjeta-recurso::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    height: 5px;
+
+    background: var(--azul);
+}
+
+
+.tarjeta-recurso:hover {
+
+    transform:
+        translateY(-8px);
+
+    box-shadow: var(--sombra-hover);
+}
+
+
+/* =====================================
+   ICONO
+===================================== */
+
+.icono-recurso {
+
+    width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 18px;
+
+    font-size: 1.8rem;
+
+    margin-bottom: 20px;
+}
+
+
+/* =====================================
+   CARTILLAS
+===================================== */
+
+.tarjeta-recurso:nth-child(1) {
+
+    border-color:
+        #bbf7d0;
+}
+
+
+.tarjeta-recurso:nth-child(1)::before {
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--verde),
+            var(--turquesa)
+        );
+}
+
+
+.tarjeta-recurso:nth-child(1)
+.icono-recurso {
+
+    color: var(--verde-oscuro);
+
+    background: var(--verde-claro);
+}
+
+
+.tarjeta-recurso:nth-child(1) a {
+
+    color: var(--verde-oscuro);
+}
+
+
+/* =====================================
+   VIDEOTUTORIALES
+===================================== */
+
+.tarjeta-recurso:nth-child(2) {
+
+    border-color:
+        #bfdbfe;
+}
+
+
+.tarjeta-recurso:nth-child(2)::before {
+
+    background: var(--azul);
+}
+
+
+.tarjeta-recurso:nth-child(2)
+.icono-recurso {
+
+    color: var(--azul);
+
+    background: var(--azul-claro);
+}
+
+
+.tarjeta-recurso:nth-child(2) a {
+
+    color: var(--azul);
+}
+
+
+/* =====================================
+   ACTIVIDADES
+===================================== */
+
+.tarjeta-recurso:nth-child(3) {
+
+    border-color:
+        #ddd6fe;
+}
+
+
+.tarjeta-recurso:nth-child(3)::before {
+
+    background: var(--morado);
+}
+
+
+.tarjeta-recurso:nth-child(3)
+.icono-recurso {
+
+    color: var(--morado);
+
+    background: var(--morado-claro);
+}
+
+
+.tarjeta-recurso:nth-child(3) a {
+
+    color: var(--morado);
+}
+
+
+/* =====================================
+   CRÉDITOS
+===================================== */
+
+.tarjeta-recurso:nth-child(4) {
+
+    border-color:
+        #fde68a;
+}
+
+
+.tarjeta-recurso:nth-child(4)::before {
+
+    background: var(--naranja);
+}
+
+
+.tarjeta-recurso:nth-child(4)
+.icono-recurso {
+
+    color: #d97706;
+
+    background: var(--naranja-claro);
+}
+
+
+.tarjeta-recurso:nth-child(4) a {
+
+    color: #d97706;
+}
+
+
+/* =====================================
+   TEXTO TARJETAS
+===================================== */
+
+.tarjeta-recurso h3 {
+
+    font-size: 1.35rem;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+}
+
+
+.tarjeta-recurso p {
+
+    min-height: 75px;
+
+    color: var(--texto-secundario);
+
+    line-height: 1.65;
+}
+
+
+.tarjeta-recurso a {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    font-weight: 700;
+
+    transition: 0.25s;
+}
+
+
+.tarjeta-recurso a:hover {
+
+    gap: 11px;
+}
+
+
+/* =====================================
+   BOTÓN BLANCO CTA
+===================================== */
+
+.btn-blanco {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 13px 26px;
+
+    border-radius: 12px;
+
+    color: var(--azul);
+
+    background: white;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+
+.btn-blanco:hover {
+
+    color: var(--morado);
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(0,0,0,0.15);
+}

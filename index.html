@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recurso Educativo Digital</title>
+
+    <!-- Bootstrap -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <!-- Iconos -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/variables.css"> 
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header-principal">
+
+        <nav class="menu-principal navbar navbar-expand-lg">
+
+            <div class="container">
+
+                <!-- Logo / Nombre -->
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-laptop"></i>
+                    REDA
+                </a>
+
+                <!-- Botón responsive -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavegacion"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="menuNavegacion">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link activo" href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="cartillas.html">
+                                <i class="bi bi-book"></i>
+                                Cartillas
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="videotutoriales.html">
+                                <i class="bi bi-play-circle"></i>
+                                Videotutoriales
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="actividades.html">
+                                <i class="bi bi-pencil-square"></i>
+                                Actividades
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="creditos.html">
+                                <i class="bi bi-people"></i>
+                                Créditos
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <!-- Texto -->
+                    <div class="col-lg-7">
+
+                        <span class="etiqueta">
+                            RECURSO EDUCATIVO DIGITAL
+                        </span>
+
+                        <h1>
+                            ¡Bienvenido a nuestro
+                            <span>Recurso Educativo Digital!</span>
+                        </h1>
+
+                        <p class="hero-texto">
+                            Explora un espacio diseñado para aprender,
+                            experimentar y desarrollar habilidades mediante
+                            el uso educativo de herramientas tecnológicas.
+                        </p>
+
+                        <div class="hero-botones">
+
+                            <a href="cartillas.html" class="btn btn-principal">
+                                <i class="bi bi-book"></i>
+                                Explorar cartillas
+                            </a>
+
+                            <a href="#proyecto" class="btn btn-secundario">
+                                Conocer el proyecto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Ilustración -->
+                    <div class="col-lg-5">
+
+                        <div class="hero-ilustracion">
+
+                            <div class="icono-flotante icono-1">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+
+                            <div class="icono-flotante icono-2">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+
+                            <div class="icono-flotante icono-3">
+                                <i class="bi bi-mortarboard"></i>
+                            </div>
+
+                            <div class="circulo-principal">
+                                <i class="bi bi-cpu"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RECURSOS ================= -->
+
+        <section class="recursos">
+
+            <div class="container">
+
+                <div class="titulo-seccion">
+
+                    <span>APRENDE Y EXPLORA</span>
+
+                    <h2>
+                        Encuentra los recursos
+                        que necesitas
+                    </h2>
+
+                    <p>
+                        Accede a diferentes materiales educativos
+                        creados para acompañar tu proceso de aprendizaje.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <!-- Cartillas -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="tarjeta-recurso">
+
+                            <div class="icono-recurso">
+                                <i class="bi bi-book"></i>
+                            </div>
+
+                            <h3>Cartillas</h3>
+
+                            <p>
+                                Consulta contenidos educativos organizados
+                                paso a paso.
+                            </p>
+
+                            <a href="cartillas.html">
+                                Ver cartillas
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Videos -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="tarjeta-recurso">
+
+                            <div class="icono-recurso">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+
+                            <h3>Videotutoriales</h3>
+
+                            <p>
+                                Aprende mediante explicaciones audiovisuales
+                                sencillas y prácticas.
+                            </p>
+
+                            <a href="videotutoriales.html">
+                                Ver videos
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Actividades -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="tarjeta-recurso">
+
+                            <div class="icono-recurso">
+                                <i class="bi bi-puzzle"></i>
+                            </div>
+
+                            <h3>Actividades</h3>
+
+                            <p>
+                                Pon en práctica tus conocimientos mediante
+                                diferentes actividades.
+                            </p>
+
+                            <a href="actividades.html">
+                                Realizar actividades
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Créditos -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="tarjeta-recurso">
+
+                            <div class="icono-recurso">
+                                <i class="bi bi-people"></i>
+                            </div>
+
+                            <h3>Créditos</h3>
+
+                            <p>
+                                Conoce las personas que participaron
+                                en la creación del recurso.
+                            </p>
+
+                            <a href="creditos.html">
+                                Ver créditos
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRESENTACIÓN DEL PROYECTO ================= -->
+
+        <section id="proyecto" class="presentacion-proyecto">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <!-- Texto -->
+                    <div class="col-lg-7">
+
+                        <span class="etiqueta">
+                            SOBRE EL PROYECTO
+                        </span>
+
+                        <h2>
+                            Conoce nuestro
+                            <span>proyecto educativo</span>
+                        </h2>
+
+                        <p>
+                            Este Recurso Educativo Digital ha sido diseñado
+                            como un espacio de aprendizaje que integra
+                            tecnología y educación para facilitar la
+                            adquisición de conocimientos y el desarrollo
+                            de habilidades.
+                        </p>
+
+                        <p>
+                            A través de contenidos interactivos, cartillas,
+                            videotutoriales y actividades, los estudiantes
+                            podrán explorar diferentes conceptos,
+                            desarrollar ejercicios prácticos y aplicar
+                            lo aprendido en situaciones de su contexto.
+                        </p>
+
+                        <p>
+                            El recurso busca promover un aprendizaje
+                            activo, autónomo y significativo, en el que
+                            la tecnología sea utilizada como un medio
+                            para aprender, crear, resolver problemas
+                            y compartir conocimientos.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Información -->
+                    <div class="col-lg-5">
+
+                        <div class="info-proyecto">
+
+                            <div class="dato-proyecto">
+
+                                <div class="dato-icono">
+                                    <i class="bi bi-bullseye"></i>
+                                </div>
+
+                                <div>
+                                    <h4>Propósito</h4>
+
+                                    <p>
+                                        Fortalecer el aprendizaje mediante
+                                        recursos tecnológicos y educativos.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="dato-proyecto">
+
+                                <div class="dato-icono">
+                                    <i class="bi bi-person-video3"></i>
+                                </div>
+
+                                <div>
+                                    <h4>Dirigido a</h4>
+
+                                    <p>
+                                        Estudiantes y docentes interesados
+                                        en el aprendizaje apoyado por tecnología.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="dato-proyecto">
+
+                                <div class="dato-icono">
+                                    <i class="bi bi-lightbulb"></i>
+                                </div>
+
+                                <div>
+                                    <h4>Metodología</h4>
+
+                                    <p>
+                                        Aprendizaje activo mediante contenidos,
+                                        actividades y recursos digitales.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LLAMADO A LA ACCIÓN ================= -->
+
+        <section class="llamado-accion">
+
+            <div class="container text-center">
+
+                <h2>
+                    ¡Comienza tu experiencia de aprendizaje!
+                </h2>
+
+                <p>
+                    Explora los recursos disponibles y descubre nuevas
+                    formas de aprender utilizando la tecnología.
+                </p>
+
+                <a href="cartillas.html" class="btn btn-blanco">
+                    Comenzar ahora
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h3>
+                        <i class="bi bi-laptop"></i>
+                        Recurso Educativo Digital
+                    </h3>
+
+                    <p>
+                        Un espacio para aprender, explorar y utilizar
+                        la tecnología con fines educativos.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h4>Recursos</h4>
+
+                    <a href="cartillas.html">Cartillas</a>
+                    <a href="videotutoriales.html">Videotutoriales</a>
+                    <a href="actividades.html">Actividades</a>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h4>Navegación</h4>
+
+                    <a href="index.html">Inicio</a>
+                    <a href="#proyecto">Proyecto</a>
+                    <a href="creditos.html">Créditos</a>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="anio"></span>
+                    Recurso Educativo Digital.
+                    Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JS propio -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>
