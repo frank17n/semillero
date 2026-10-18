@@ -74,6 +74,13 @@ a {
     color: var(--morado);
 }
 
+.navbar-brand .logo-giace {
+
+    height: 38px;
+
+    width: auto;
+}
+
 
 /* MENU */
 
