@@ -1,0 +1,455 @@
+/* ==================================
+   PORTADA DE CRÉDITOS
+================================== */
+
+.creditos-hero {
+    padding: 75px 20px 85px;
+    text-align: center;
+    background:
+        radial-gradient(circle at 12% 20%, #d1fae5, transparent 30%),
+        radial-gradient(circle at 85% 25%, #ddd6fe, transparent 32%),
+        #f8fafc;
+}
+
+.creditos-icono-principal {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 22px;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    font-size: 2.5rem;
+    box-shadow: 0 15px 30px #7c3aed30;
+}
+
+.creditos-etiqueta {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background: #ede9fe;
+    color: #6d28d9;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.creditos-hero h1 {
+    margin: 22px 0 15px;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 800;
+}
+
+.creditos-hero h1 span {
+    color: #7c3aed;
+}
+
+.creditos-hero p {
+    max-width: 740px;
+    margin: 0 auto 25px;
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.boton-creditos {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 22px;
+    border-radius: 12px;
+    color: white;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.boton-creditos:hover {
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px #7c3aed30;
+}
+
+
+/* ==================================
+   PRESENTACIÓN DEL PROYECTO
+================================== */
+
+.presentacion-creditos {
+    padding: 85px 0;
+    background: white;
+}
+
+.subtitulo-creditos {
+    color: #7c3aed;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.presentacion-creditos h2 {
+    margin: 14px 0 20px;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.presentacion-creditos p {
+    color: #64748b;
+    line-height: 1.9;
+}
+
+.valores-creditos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.valores-creditos span {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: 1px solid #d1fae5;
+    border-radius: 50px;
+    background: #ecfdf5;
+    color: #047857;
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+
+/* ILUSTRACIÓN */
+
+.creditos-ilustracion {
+    position: relative;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #ddd6fe;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+}
+
+.centro-creditos {
+    position: relative;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid white;
+    border-radius: 35px;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    color: white;
+    box-shadow: 0 15px 35px #7c3aed30;
+    transform: rotate(-4deg);
+}
+
+.centro-creditos i {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.centro-creditos strong {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.centro-creditos span {
+    font-size: .8rem;
+}
+
+.figura-creditos {
+    position: absolute;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 22px;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 8px 20px #0f172a15;
+}
+
+.figura-a {
+    top: 35px;
+    left: 35px;
+    background: #10b981;
+    transform: rotate(-12deg);
+}
+
+.figura-b {
+    top: 40px;
+    right: 35px;
+    background: #f59e0b;
+    transform: rotate(10deg);
+}
+
+.figura-c {
+    bottom: 35px;
+    right: 45px;
+    background: #ec4899;
+    transform: rotate(-8deg);
+}
+
+
+/* ==================================
+   EQUIPO DE TRABAJO
+================================== */
+
+.equipo-creditos {
+    padding: 85px 0;
+    background: #f8fafc;
+}
+
+.titulo-creditos {
+    max-width: 720px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.titulo-creditos > span {
+    color: #2563eb;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.titulo-creditos h2 {
+    margin: 12px 0;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 800;
+}
+
+.titulo-creditos p {
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.tarjeta-persona {
+    height: 100%;
+    padding: 30px 24px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-top: 5px solid transparent;
+    border-radius: 22px;
+    background: white;
+    box-shadow: 0 7px 25px #0f172a08;
+    transition: .3s;
+}
+
+.tarjeta-persona:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 40px #0f172a15;
+}
+
+.persona-verde {
+    border-top-color: #10b981;
+}
+
+.persona-azul {
+    border-top-color: #3b82f6;
+}
+
+.persona-morado {
+    border-top-color: #8b5cf6;
+}
+
+.avatar-persona {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 27px;
+    font-size: 3rem;
+    transition: .3s;
+}
+
+.tarjeta-persona:hover .avatar-persona {
+    transform: scale(1.06);
+}
+
+.persona-verde .avatar-persona {
+    color: #059669;
+    background: #d1fae5;
+}
+
+.persona-azul .avatar-persona {
+    color: #2563eb;
+    background: #dbeafe;
+}
+
+.persona-morado .avatar-persona {
+    color: #7c3aed;
+    background: #ede9fe;
+}
+
+.rol-persona {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #64748b;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.tarjeta-persona h3 {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.tarjeta-persona p {
+    min-height: 90px;
+    color: #64748b;
+    font-size: .92rem;
+    line-height: 1.7;
+}
+
+.linea-persona {
+    height: 1px;
+    margin: 20px 0;
+    background: #e2e8f0;
+}
+
+.area-persona {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #475569;
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+.nota-creditos {
+    margin-top: 30px;
+    padding: 15px 18px;
+    border: 1px solid #bfdbfe;
+    border-radius: 13px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: .9rem;
+    line-height: 1.7;
+}
+
+
+/* ==================================
+   HERRAMIENTAS UTILIZADAS
+================================== */
+
+.herramientas-creditos {
+    padding: 85px 0;
+    background: white;
+}
+
+.herramienta-item {
+    height: 100%;
+    padding: 25px 15px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 19px;
+    background: white;
+    transition: .3s;
+}
+
+.herramienta-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px #0f172a12;
+}
+
+.herramienta-icono {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    border-radius: 19px;
+    font-size: 2rem;
+}
+
+.icono-html {
+    color: #ea580c;
+    background: #ffedd5;
+}
+
+.icono-css {
+    color: #2563eb;
+    background: #dbeafe;
+}
+
+.icono-js {
+    color: #a16207;
+    background: #fef3c7;
+}
+
+.icono-bootstrap {
+    color: #7c3aed;
+    background: #ede9fe;
+}
+
+.herramienta-item h3 {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.herramienta-item p {
+    margin-bottom: 0;
+    color: #64748b;
+    font-size: .85rem;
+    line-height: 1.6;
+}
+
+.aviso-herramientas {
+    margin-top: 25px;
+    color: #64748b;
+    font-size: .85rem;
+    text-align: center;
+}
+
+
+/* ==================================
+   AGRADECIMIENTO
+================================== */
+
+.agradecimiento-creditos {
+    padding: 0 0 85px;
+    background: white;
+}
+
+.agradecimiento-panel {
+    padding: 55px 25px;
+    text-align: center;
+    border: 1px solid #fbcfe8;
+    border-radius: 28px;
+    background:
+        radial-gradient(circle at 10% 15%, #fce7f3, transparent 40%),
+        linear-gradient(135deg, #fff7ed, #f5f3ff);
+}
+
+.agradecimiento-icono {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 22px;
+    border-radius: 22px;
+    background: white;
+    color: #ec4899;
+    font-size: 16;
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartillas educativas | REDA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/cartillas.css">
+</head>
+
+<body>
+
+<header class="header-principal">
+    <nav class="navbar navbar-expand-lg menu-principal">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-laptop"></i> REDA
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavegacion"
+                    aria-controls="menuNavegacion"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house"></i> Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="cartillas.html">
+                            <i class="bi bi-journal-bookmark"></i> Cartillas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="videotutoriales.html">
+                            <i class="bi bi-play-circle"></i> Videotutoriales
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">
+                            <i class="bi bi-puzzle"></i> Actividades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="ayuda.html">
+                            <i class="bi bi-question-circle"></i> Ayuda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">
+                            <i class="bi bi-people"></i> Créditos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- PORTADA -->
+    <section class="cartillas-hero">
+        <div class="container">
+            <span class="cartillas-etiqueta">
+                <i class="bi bi-book-half"></i>
+                MATERIAL EDUCATIVO
+            </span>
+
+            <h1>Aprende, explora y <span>crea</span></h1>
+
+            <p>
+                Descubre nuestras tres cartillas educativas y fortalece
+                tus conocimientos mediante contenidos, explicaciones
+                y actividades diseñadas para grado décimo.
+            </p>
+
+            <a href="#mis-cartillas" class="btn-cartillas">
+                Explorar las cartillas
+                <i class="bi bi-arrow-down-circle"></i>
+            </a>
+
+            <div class="cartillas-dato">
+                <div>
+                    <i class="bi bi-journal-richtext"></i>
+                    <strong>3 cartillas</strong>
+                </div>
+                <div>
+                    <i class="bi bi-lightbulb"></i>
+                    <strong>Aprendizaje práctico</strong>
+                </div>
+                <div>
+                    <i class="bi bi-laptop"></i>
+                    <strong>Recursos digitales</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- LAS TRES CARTILLAS -->
+    <section class="seccion-cartillas" id="mis-cartillas">
+        <div class="container">
+
+            <div class="titulo-cartillas">
+                <span>RUTA DE APRENDIZAJE</span>
+                <h2>Explora nuestras cartillas</h2>
+                <p>
+                    Selecciona una cartilla para consultar su contenido.
+                    Sigue la secuencia propuesta para avanzar paso a paso.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- CARTILLA 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-cartilla">
+
+                        <div class="portada-cartilla portada-uno">
+                            <span class="numero-cartilla">01</span>
+
+                            <div class="ilustracion-cartilla">
+                                <i class="bi bi-cpu"></i>
+                            </div>
+
+                            <span class="texto-portada">CARTILLA EDUCATIVA</span>
+                        </div>
+
+                        <div class="contenido-cartilla">
+                            <span class="categoria-cartilla categoria-verde">
+                                FUNDAMENTOS
+                            </span>
+
+                            <!-- Cambia el título por el real -->
+                            <h3>Cartilla 1: [Título de la cartilla]</h3>
+
+                            <p>
+                                Escribe aquí una descripción breve de
+                                los contenidos y aprendizajes de esta cartilla.
+                            </p>
+
+                            <div class="detalle-cartilla">
+                                <span>
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    Documento PDF
+                                </span>
+                                <span>
+                                    <i class="bi bi-mortarboard"></i>
+                                    Grado 10.º
+                                </span>
+                            </div>
+
+                            <a href="documentos/cartilla1.pdf"
+                               class="boton-cartilla"
+                               target="_blank"
+                               rel="noopener">
+                                Leer cartilla
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+                </div>
+
+
+                <!-- CARTILLA 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-cartilla">
+
+                        <div class="portada-cartilla portada-dos">
+                            <span class="numero-cartilla">02</span>
+
+                            <div class="ilustracion-cartilla">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+
+                            <span class="texto-portada">CARTILLA EDUCATIVA</span>
+                        </div>
+
+                        <div class="contenido-cartilla">
+                            <span class="categoria-cartilla categoria-azul">
+                                EXPLORACIÓN
+                            </span>
+
+                            <h3>Cartilla 2: [Título de la cartilla]</h3>
+
+                            <p>
+                                Agrega aquí una descripción de los temas,
+                                herramientas o procedimientos que se trabajan.
+                            </p>
+
+                            <div class="detalle-cartilla">
+                                <span>
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    Documento PDF
+                                </span>
+                                <span>
+                                    <i class="bi bi-mortarboard"></i>
+                                    Grado 10.º
+                                </span>
+                            </div>
+
+                            <a href="documentos/cartilla2.pdf"
+                               class="boton-cartilla"
+                               target="_blank"
+                               rel="noopener">
+                                Leer cartilla
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+                </div>
+
+
+                <!-- CARTILLA 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-cartilla">
+
+                        <div class="portada-cartilla portada-tres">
+                            <span class="numero-cartilla">03</span>
+
+                            <div class="ilustracion-cartilla">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+
+                            <span class="texto-portada">CARTILLA EDUCATIVA</span>
+                        </div>
+
+                        <div class="contenido-cartilla">
+                            <span class="categoria-cartilla categoria-morado">
+                                APLICACIÓN
+                            </span>
+
+                            <h3>Cartilla 3: [Título de la cartilla]</h3>
+
+                            <p>
+                                Describe los ejercicios, retos o proyectos
+                                que el estudiante desarrollará con lo aprendido.
+                            </p>
+
+                            <div class="detalle-cartilla">
+                                <span>
+                                    <i class="bi bi-file-earmark-pdf"></i>
+                                    Documento PDF
+                                </span>
+                                <span>
+                                    <i class="bi bi-mortarboard"></i>
+                                    Grado 10.º
+                                </span>
+                            </div>
+
+                            <a href="documentos/cartilla3.pdf"
+                               class="boton-cartilla"
+                               target="_blank"
+                               rel="noopener">
+                                Leer cartilla
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- RECOMENDACIONES -->
+    <section class="recomendaciones-cartillas">
+        <div class="container">
+            <div class="recomendaciones-panel">
+
+                <div class="recomendaciones-icono">
+                    <i class="bi bi-stars"></i>
+                </div>
+
+                <div>
+                    <h2>¡Prepárate para aprender!</h2>
+                    <p>
+                        Lee las cartillas con atención, toma apuntes,
+                        consulta los videotutoriales y desarrolla las
+                        actividades para poner en práctica tus conocimientos.
+                    </p>
+                </div>
+
+                <a href="videotutoriales.html" class="boton-recomendacion">
+                    Ver videotutoriales
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <h3><i class="bi bi-laptop"></i> REDA</h3>
+                <p>
+                    Un espacio digital para aprender, crear y
+                    fortalecer las competencias tecnológicas.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Explora</h4>
+                <a href="index.html">Inicio</a>
+                <a href="cartillas.html">Cartillas</a>
+                <a href="videotutoriales.html">Videotutoriales</a>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Información</h4>
+                <a href="actividades.html">Actividades</a>
+                <a href="ayuda.html">Ayuda</a>
+                <a href="creditos.html">Créditos</a>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© <span id="anio"></span> REDA · Recurso Educativo Digital</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

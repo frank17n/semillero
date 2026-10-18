@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centro de ayuda | REDA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/ayuda.css">
+</head>
+
+<body>
+
+<header class="header-principal">
+    <nav class="navbar navbar-expand-lg menu-principal">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-laptop"></i> REDA
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavegacion"
+                    aria-controls="menuNavegacion"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house"></i> Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cartillas.html">
+                            <i class="bi bi-journal-bookmark"></i> Cartillas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="videotutoriales.html">
+                            <i class="bi bi-play-circle"></i> Videotutoriales
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">
+                            <i class="bi bi-puzzle"></i> Actividades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="ayuda.html">
+                            <i class="bi bi-question-circle"></i> Ayuda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">
+                            <i class="bi bi-people"></i> Créditos
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- PORTADA DE AYUDA -->
+    <section class="ayuda-hero">
+        <div class="container">
+
+            <div class="ayuda-icono-principal">
+                <i class="bi bi-headset"></i>
+            </div>
+
+            <span class="etiqueta">CENTRO DE AYUDA</span>
+
+            <h1>¿Cómo podemos <span>ayudarte?</span></h1>
+
+            <p>
+                Encuentra orientaciones para navegar por el recurso,
+                consultar los materiales y desarrollar las actividades.
+            </p>
+
+            <a href="#preguntas" class="btn btn-ayuda">
+                Consultar preguntas frecuentes
+                <i class="bi bi-arrow-down-circle"></i>
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- GUÍA RÁPIDA -->
+    <section class="guia-rapida">
+        <div class="container">
+
+            <div class="encabezado-ayuda">
+                <span>GUÍA RÁPIDA</span>
+                <h2>Comienza en tres pasos</h2>
+                <p>
+                    Sigue estas recomendaciones para aprovechar
+                    los recursos educativos disponibles.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <article class="paso-ayuda paso-verde">
+
+                        <div class="numero-paso">01</div>
+
+                        <div class="icono-paso">
+                            <i class="bi bi-book"></i>
+                        </div>
+
+                        <h3>Explora las cartillas</h3>
+
+                        <p>
+                            Consulta las guías y revisa los contenidos
+                            antes de comenzar cada actividad.
+                        </p>
+
+                        <a href="cartillas.html">
+                            Ir a cartillas <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </article>
+                </div>
+
+
+                <div class="col-md-4">
+                    <article class="paso-ayuda paso-azul">
+
+                        <div class="numero-paso">02</div>
+
+                        <div class="icono-paso">
+                            <i class="bi bi-play-circle"></i>
+                        </div>
+
+                        <h3>Observa los tutoriales</h3>
+
+                        <p>
+                            Aprende con los videos, pausa cuando lo
+                            necesites y repasa las explicaciones.
+                        </p>
+
+                        <a href="videotutoriales.html">
+                            Ver tutoriales <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </article>
+                </div>
+
+
+                <div class="col-md-4">
+                    <article class="paso-ayuda paso-morado">
+
+                        <div class="numero-paso">03</div>
+
+                        <div class="icono-paso">
+                            <i class="bi bi-puzzle"></i>
+                        </div>
+
+                        <h3>Realiza las actividades</h3>
+
+                        <p>
+                            Aplica lo aprendido y comprueba tus
+                            conocimientos mediante los ejercicios.
+                        </p>
+
+                        <a href="actividades.html">
+                            Ir a actividades <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="preguntas-ayuda" id="preguntas">
+        <div class="container">
+
+            <div class="encabezado-ayuda">
+                <span>RESOLVEMOS TUS DUDAS</span>
+                <h2>Preguntas frecuentes</h2>
+                <p>
+                    Selecciona una pregunta para consultar su respuesta.
+                </p>
+            </div>
+
+            <div class="accordion acordeon-ayuda" id="preguntasFrecuentes">
+
+                <!-- PREGUNTA 1 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta1"
+                                aria-expanded="true"
+                                aria-controls="respuesta1">
+                            <i class="bi bi-compass"></i>
+                            ¿Cómo puedo navegar por el recurso?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta1"
+                         class="accordion-collapse collapse show"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            Utiliza la barra de navegación superior para
+                            ingresar a Inicio, Cartillas, Videotutoriales,
+                            Actividades, Ayuda y Créditos. También puedes
+                            utilizar los botones que aparecen en cada sección.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PREGUNTA 2 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta2"
+                                aria-expanded="false"
+                                aria-controls="respuesta2">
+                            <i class="bi bi-journal-text"></i>
+                            ¿Para qué sirven las cartillas?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta2"
+                         class="accordion-collapse collapse"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            Las cartillas contienen explicaciones, conceptos,
+                            instrucciones y actividades que te ayudan a
+                            comprender los temas del proyecto. Léelas
+                            siguiendo el orden propuesto.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PREGUNTA 3 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta3"
+                                aria-expanded="false"
+                                aria-controls="respuesta3">
+                            <i class="bi bi-play-btn"></i>
+                            ¿Cómo puedo ver los videotutoriales?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta3"
+                         class="accordion-collapse collapse"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            Entra en la sección Videotutoriales y selecciona
+                            el video que quieras consultar. Si no se reproduce,
+                            comprueba tu conexión a internet y vuelve a intentarlo.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PREGUNTA 4 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta4"
+                                aria-expanded="false"
+                                aria-controls="respuesta4">
+                            <i class="bi bi-puzzle"></i>
+                            ¿Qué debo hacer si no entiendo una actividad?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta4"
+                         class="accordion-collapse collapse"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            Revisa nuevamente la cartilla relacionada,
+                            consulta el videotutorial correspondiente
+                            y lee con atención las instrucciones.
+                            Si la duda continúa, solicita orientación al docente.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PREGUNTA 5 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta5"
+                                aria-expanded="false"
+                                aria-controls="respuesta5">
+                            <i class="bi bi-wifi"></i>
+                            ¿Necesito conexión a internet?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta5"
+                         class="accordion-collapse collapse"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            La navegación por páginas alojadas en internet
+                            y la reproducción de videos en línea requieren
+                            conexión. Los materiales descargables pueden
+                            consultarse sin conexión si ya están guardados
+                            en tu dispositivo.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PREGUNTA 6 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#respuesta6"
+                                aria-expanded="false"
+                                aria-controls="respuesta6">
+                            <i class="bi bi-exclamation-circle"></i>
+                            ¿Qué hago si una página no funciona?
+                        </button>
+                    </h3>
+
+                    <div id="respuesta6"
+                         class="accordion-collapse collapse"
+                         data-bs-parent="#preguntasFrecuentes">
+
+                        <div class="accordion-body">
+                            Verifica tu conexión, actualiza la página
+                            y comprueba que el enlace sea correcto.
+                            Si el problema continúa, informa al docente
+                            o a la persona encargada del recurso.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MENSAJE FINAL -->
+    <section class="ayuda-final">
+        <div class="container">
+            <div class="ayuda-final-tarjeta">
+
+                <div class="ayuda-final-icono">
+                    <i class="bi bi-lightbulb"></i>
+                </div>
+
+                <h2>¡Sigue explorando y aprendiendo!</h2>
+
+                <p>
+                    Cada recurso es una oportunidad para desarrollar
+                    nuevas habilidades, resolver problemas y aprender
+                    utilizando la tecnología.
+                </p>
+
+                <a href="index.html" class="btn btn-volver">
+                    <i class="bi bi-house"></i>
+                    Volver al inicio
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <h3><i class="bi bi-laptop"></i> REDA</h3>
+                <p>
+                    Un espacio digital para aprender, crear
+                    y fortalecer las competencias tecnológicas.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Explora</h4>
+                <a href="index.html">Inicio</a>
+                <a href="cartillas.html">Cartillas</a>
+                <a href="videotutoriales.html">Videotutoriales</a>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Información</h4>
+                <a href="actividades.html">Actividades</a>
+                <a href="ayuda.html">Ayuda</a>
+                <a href="creditos.html">Créditos</a>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© <span id="anio"></span> REDA · Recurso Educativo Digital</p>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.getElementById("anio").textContent =
+        new Date().getFullYear();
+</script>
+
+</body>
+</html>
