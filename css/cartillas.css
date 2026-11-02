@@ -171,6 +171,10 @@
     background: linear-gradient(135deg, #7c3aed, #c084fc);
 }
 
+.portada-cuatro {
+    background: linear-gradient(135deg, #d97706, #fbbf24);
+}
+
 .numero-cartilla {
     position: absolute;
     top: 17px;
@@ -239,6 +243,11 @@
 .categoria-morado {
     background: #ede9fe;
     color: #6d28d9;
+}
+
+.categoria-naranja {
+    background: #ffedd5;
+    color: #c2410c;
 }
 
 .contenido-cartilla h3 {

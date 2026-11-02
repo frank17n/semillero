@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos educativos | REDA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/productos.css">
+</head>
+
+<body>
+<header class="header-principal">
+    <nav class="navbar navbar-expand-lg menu-principal">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-giace" src="logos/logo%20GIACE.png" alt="Logo GIACE">
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavegacion"
+                    aria-controls="menuNavegacion"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cartillas.html">
+                            <i class="bi bi-journal-bookmark"></i> Unidades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videotutoriales.html">
+                            <i class="bi bi-play-circle"></i> Videotutoriales
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="productos.html" aria-current="page">
+                            <i class="bi bi-box-seam"></i> Productos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ayuda.html">
+                            <i class="bi bi-question-circle"></i> Ayuda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">
+                            <i class="bi bi-people"></i> Créditos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="productos-hero">
+        <div class="container">
+            <span class="productos-etiqueta">
+                <i class="bi bi-box-seam"></i> RECURSOS PARA APRENDER
+            </span>
+            <h1>Conoce nuestros <span>productos educativos</span></h1>
+            <p>
+                Explora los recursos del proyecto y aprende sobre educación
+                ambiental y robótica educativa mediante contenidos y experiencias
+                pensadas para acompañar tu aprendizaje.
+            </p>
+            <a href="#catalogo-productos" class="btn-productos">
+                Explorar productos <i class="bi bi-arrow-down-circle"></i>
+            </a>
+
+            <div class="productos-datos">
+                <div><i class="bi bi-journal-richtext"></i><strong>Material de consulta</strong></div>
+                <div><i class="bi bi-play-btn"></i><strong>Recursos audiovisuales</strong></div>
+                <div><i class="bi bi-lightbulb"></i><strong>Aprendizaje práctico</strong></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-productos" id="catalogo-productos">
+        <div class="container">
+            <div class="titulo-productos">
+                <span>CATÁLOGO EDUCATIVO</span>
+                
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-producto producto-cartillas">
+                        <div class="producto-icono"><i class="bi bi-journal-bookmark"></i></div>
+                        <span class="producto-categoria">MATERIAL DE ESTUDIO</span>
+                        <h3>Cartillas educativas</h3>
+                        <p>
+                            Consulta la ruta de cartillas y encuentra contenidos
+                            para explorar los fundamentos, herramientas y
+                            aplicaciones de la propuesta educativa.
+                        </p>
+                        <a href="cartillas.html">
+                            Explorar cartillas <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-producto producto-videos">
+                        <div class="producto-icono"><i class="bi bi-play-circle"></i></div>
+                        <span class="producto-categoria">APRENDIZAJE AUDIOVISUAL</span>
+                        <h3>Videotutoriales</h3>
+                        <p>
+                            Refuerza los temas con explicaciones audiovisuales
+                            y sigue cada contenido como complemento de tu
+                            proceso de aprendizaje.
+                        </p>
+                        <a href="videotutoriales.html">
+                            Ver videotutoriales <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="tarjeta-producto producto-proyecto">
+                        <div class="producto-icono"><i class="bi bi-robot"></i></div>
+                        <span class="producto-categoria">PROYECTO EDUCATIVO</span>
+                        <h3>Robótica y educación ambiental</h3>
+                        <p>
+                            Conoce la propuesta que integra robótica educativa
+                            y educación ambiental para crear experiencias de
+                            aprendizaje conectadas con el entorno.
+                        </p>
+                        <a href="index.html#proyecto">
+                            Conocer el proyecto <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <h3><i class="bi bi-laptop"></i> REDA</h3>
+                <p>
+                    Un espacio digital para aprender, crear y
+                    fortalecer las competencias tecnológicas.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h4>Explora</h4>
+                <a href="index.html">Inicio</a>
+                <a href="cartillas.html">Cartillas</a>
+                <a href="videotutoriales.html">Videotutoriales</a>
+            </div>
+            <div class="col-md-3">
+                <h4>Información</h4>
+                <a href="productos.html">Productos</a>
+                <a href="ayuda.html">Ayuda</a>
+                <a href="creditos.html">Créditos</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© <span id="anio"></span> REDA · Recurso Educativo Digital</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

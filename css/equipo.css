@@ -1,0 +1,141 @@
+.equipo-inicio {
+    padding: 75px 0 80px;
+    background: linear-gradient(180deg, #fff, #f8fafc);
+}
+
+.equipo-inicio-encabezado {
+    max-width: 720px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.equipo-inicio-encabezado > span {
+    color: #2563eb;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.equipo-inicio-encabezado h2 {
+    margin: 12px 0;
+    color: #172033;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 800;
+}
+
+.equipo-inicio-encabezado p {
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.carrusel-equipo {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.persona-carrusel {
+    height: 100%;
+    min-height: 270px;
+    padding: 25px 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 10px 30px #0f172a0d;
+    text-align: center;
+}
+
+.persona-carrusel-foto {
+    width: 112px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #e2e8f0;
+    font-size: 3.5rem;
+}
+
+.persona-carrusel-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.persona-carrusel > span {
+    color: #64748b;
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .8px;
+    overflow-wrap: anywhere;
+}
+
+.persona-carrusel h3 {
+    margin: 0 0 8px;
+    color: #172033;
+    font-size: 1.05rem;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+}
+
+.persona-carrusel h3 a {
+    color: inherit;
+}
+
+.persona-carrusel h3 a:hover {
+    color: #2563eb;
+}
+
+.persona-carrusel-verde .persona-carrusel-foto {
+    color: #059669;
+    background: #ecfdf5;
+}
+
+.persona-carrusel-azul .persona-carrusel-foto {
+    color: #2563eb;
+    background: #eff6ff;
+}
+
+.persona-carrusel-morado .persona-carrusel-foto {
+    color: #7c3aed;
+    background: #f5f3ff;
+}
+
+.persona-carrusel-docente .persona-carrusel-foto {
+    color: #d97706;
+    background: #fffbeb;
+}
+
+@media (max-width: 575px) {
+    .equipo-inicio {
+        padding: 55px 0 60px;
+    }
+
+    .persona-carrusel {
+        min-height: 200px;
+        padding: 14px 5px;
+        border-radius: 14px;
+    }
+
+    .persona-carrusel-foto {
+        width: 62px;
+        height: 62px;
+        margin-bottom: 12px;
+        font-size: 2rem;
+    }
+
+    .persona-carrusel h3 {
+        font-size: .72rem;
+    }
+
+    .persona-carrusel > span {
+        font-size: .58rem;
+        letter-spacing: 0;
+    }
+
+    .equipo-inicio .row {
+        --bs-gutter-x: .5rem;
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,18 @@
     <title>Recurso Educativo Digital</title>
 
     <!-- Bootstrap -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet"
-    >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Iconos -->
-    <link 
-        rel="stylesheet" 
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- CSS propio -->
-    <link rel="stylesheet" href="css/variables.css"> 
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/proyecto.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/equipo.css">
 </head>
 
 <body>
@@ -40,12 +37,7 @@
                 </a>
 
                 <!-- Botón responsive -->
-                <button 
-                    class="navbar-toggler" 
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#menuNavegacion"
-                >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -63,7 +55,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="cartillas.html">
                                 <i class="bi bi-book"></i>
-                                Cartillas
+                                Unidades
                             </a>
                         </li>
 
@@ -75,9 +67,9 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="actividades.html">
-                                <i class="bi bi-pencil-square"></i>
-                                Actividades
+                            <a class="nav-link" href="productos.html">
+                                <i class="bi bi-box-seam"></i>
+                                Productos
                             </a>
                         </li>
 
@@ -180,6 +172,178 @@
 
         </section>
 
+        <section class="equipo-inicio" aria-labelledby="titulo-equipo-inicio">
+            <div class="container">
+                <div class="equipo-inicio-encabezado">
+                    <span>GRUPO DE INVESTIGACIÓN</span>
+                    <h2 id="titulo-equipo-inicio">Conoce a nuestro equipo</h2>
+                    <p>
+                        Conoce a investigadores, coinvestigadores y estudiantes
+                        que participan en esta propuesta de investigación.
+                    </p>
+                </div>
+
+                <div id="carruselEquipo" class="carousel slide carrusel-equipo" data-bs-ride="carousel"
+                    data-bs-interval="4000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row g-3 justify-content-center">
+
+
+
+
+
+
+                                <div class="col-3">
+
+                                    <article class="persona-carrusel persona-carrusel-azul">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Jonathan David Rondón García">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/10985"
+                                                target="_blank" rel="noopener">Jonathan David Rondón García</a></h3>
+                                        <span>Estudiante - Semillero </span>
+                                    </article>
+                                </div>
+
+
+
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-morado">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Jhohan Sneider Gil Pérez">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/10982"
+                                                target="_blank" rel="noopener">Jhohan Sneider Gil Pérez</a></h3>
+                                        <span>Estudiante - Semillero </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-morado">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Jimmy Yordany Ardila Muñoz">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/4490"
+                                                target="_blank" rel="noopener">Jimmy Yordany Ardila Muñoz</a></h3>
+                                        <span>Coinvestigador </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-docente">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de María Nelba Monroy Fonseca">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/775"
+                                                target="_blank" rel="noopener">María Nelba Monroy Fonseca</a></h3>
+                                        <span>Coinvestigador </span>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-azul">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Edgar Orlando Caro">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/774"
+                                                target="_blank" rel="noopener">Edgar Orlando Caro</a></h3>
+                                        <span>Investigador Principal </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-morado">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de María Elsa Cañón Fandiño">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/8195"
+                                                target="_blank" rel="noopener">María Elsa Cañón Fandiño</a></h3>
+                                        <span>Auxiliar - Joven Investigador </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-verde">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Claudia Andrea Betancur Rojas">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/11358"
+                                                target="_blank" rel="noopener">Claudia Andrea Betancur Rojas</a></h3>
+                                        <span>Investigador </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-docente">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Manuel Santiago Solano Peña">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/10984"
+                                                target="_blank" rel="noopener">Manuel Santiago Solano Peña</a></h3>
+                                        <span>Estudiante - Semillero </span>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3 justify-content-center">
+
+
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-verde">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de José Henry Pérez Sánchez">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/11362"
+                                                target="_blank" rel="noopener">José Henry Pérez Sánchez</a></h3>
+                                        <span>Investigador </span>
+                                    </article>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-verde">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Fabián Arturo Morales Camargo">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/8498"
+                                                target="_blank" rel="noopener">Fabián Arturo Morales Camargo</a></h3>
+                                        <span>Estudiante - Semillero </span>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="persona-carrusel persona-carrusel-azul">
+                                        <div class="persona-carrusel-foto" role="img"
+                                            aria-label="Espacio para la foto de Oliva Patiño Cuervo">
+                                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                                        </div>
+                                        <h3><a href="https://apps1.uptc.edu.co/SiInvestigacionesFrontEnd/#/dashboard/detalle-investigador/3199"
+                                                target="_blank" rel="noopener">Oliva Patiño Cuervo</a></h3>
+                                        <span>Coinvestigador </span>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- ================= RECURSOS ================= -->
 
@@ -258,8 +422,30 @@
                     </div>
 
 
-                   
+                    <!-- Productos -->
+                    <div class="col-md-6 col-lg-3">
 
+                        <div class="tarjeta-recurso">
+
+                            <div class="icono-recurso">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+
+                            <h3>Productos</h3>
+
+                            <p>
+                                Explora los recursos educativos del proyecto
+                                y encuentra materiales para aprender.
+                            </p>
+
+                            <a href="productos.html">
+                                Ver productos
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
 
                     <!-- Créditos -->
                     <div class="col-md-6 col-lg-3">
@@ -295,118 +481,335 @@
 
         <!-- ================= PRESENTACIÓN DEL PROYECTO ================= -->
 
-        <section id="proyecto" class="presentacion-proyecto">
+        <!-- CONOCE NUESTRO PROYECTO -->
+        <section class="proyecto-presentacion" id="proyecto">
 
             <div class="container">
 
-                <div class="row align-items-center">
+                <!-- ENCABEZADO -->
+                <div class="titulo-proyecto">
+                    <span class="etiqueta-proyecto">
+                        <i class="bi bi-lightbulb"></i> SOBRE NUESTRA INVESTIGACIÓN
+                    </span>
 
-                    <!-- Texto -->
-                    <div class="col-lg-7">
+                    <h2>Conoce nuestro <span>proyecto</span></h2>
 
-                        <span class="etiqueta">
-                            SOBRE EL PROYECTO
-                        </span>
+                    <p>
+                        Educación ambiental y robótica educativa:
+                        una combinación para aprender, crear y transformar
+                        nuestra relación con el entorno.
+                    </p>
+                </div>
 
-                        <h2>
-                            Conoce nuestro
-                            <span>proyecto educativo</span>
-                        </h2>
 
-                        <p>
-                            Este Recurso Educativo Digital ha sido diseñado
-                            como un espacio de aprendizaje que integra
-                            tecnología y educación para facilitar la
-                            adquisición de conocimientos y el desarrollo
-                            de habilidades.
-                        </p>
+                <!-- INFORMACIÓN PRINCIPAL -->
+                <div class="proyecto-principal">
 
-                        <p>
-                            A través de contenidos interactivos, cartillas,
-                            videotutoriales y actividades, los estudiantes
-                            podrán explorar diferentes conceptos,
-                            desarrollar ejercicios prácticos y aplicar
-                            lo aprendido en situaciones de su contexto.
-                        </p>
+                    <div class="proyecto-imagen">
+                        <div class="imagen-contenido">
+                            <i class="bi bi-robot"></i>
+                            <span>TECNOLOGÍA + NATURALEZA</span>
+                        </div>
 
-                        <p>
-                            El recurso busca promover un aprendizaje
-                            activo, autónomo y significativo, en el que
-                            la tecnología sea utilizada como un medio
-                            para aprender, crear, resolver problemas
-                            y compartir conocimientos.
-                        </p>
+                        <div class="burbuja-proyecto burbuja-1">
+                            <i class="bi bi-recycle"></i>
+                        </div>
 
+                        <div class="burbuja-proyecto burbuja-2">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+
+                        <div class="burbuja-proyecto burbuja-3">
+                            <i class="bi bi-tree"></i>
+                        </div>
                     </div>
 
+                    <div class="proyecto-descripcion">
 
-                    <!-- Información -->
-                    <div class="col-lg-5">
+                        <span class="subtitulo-proyecto">
+                            INVESTIGACIÓN EDUCATIVA
+                        </span>
 
-                        <div class="info-proyecto">
+                        <h3>
+                            Educación ambiental: transposición didáctica
+                            mediante el uso de la robótica educativa
+                        </h3>
 
-                            <div class="dato-proyecto">
+                        <p>
+                            Este proyecto de investigación propone integrar
+                            la educación ambiental y la tecnología mediante
+                            el uso de la robótica educativa como herramienta
+                            pedagógica. Busca transformar la manera en que
+                            los estudiantes comprenden las problemáticas
+                            ambientales y su relación con los ecosistemas.
+                        </p>
 
-                                <div class="dato-icono">
-                                    <i class="bi bi-bullseye"></i>
-                                </div>
+                        <p>
+                            A través de ambientes de aprendizaje innovadores,
+                            se pretende que los estudiantes no solamente
+                            adquieran conocimientos, sino que también
+                            experimenten, construyan, diseñen y propongan
+                            soluciones relacionadas con el cuidado del medio
+                            ambiente.
+                        </p>
 
-                                <div>
-                                    <h4>Propósito</h4>
-
-                                    <p>
-                                        Fortalecer el aprendizaje mediante
-                                        recursos tecnológicos y educativos.
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="dato-proyecto">
-
-                                <div class="dato-icono">
-                                    <i class="bi bi-person-video3"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Dirigido a</h4>
-
-                                    <p>
-                                        Estudiantes y docentes interesados
-                                        en el aprendizaje apoyado por tecnología.
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                            <div class="dato-proyecto">
-
-                                <div class="dato-icono">
-                                    <i class="bi bi-lightbulb"></i>
-                                </div>
-
-                                <div>
-                                    <h4>Metodología</h4>
-
-                                    <p>
-                                        Aprendizaje activo mediante contenidos,
-                                        actividades y recursos digitales.
-                                    </p>
-                                </div>
-
-                            </div>
-
+                        <div class="ubicacion-proyecto">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Tunja, Boyacá, Colombia
                         </div>
 
                     </div>
 
                 </div>
 
+
+                <!-- RESUMEN -->
+                <div class="resumen-proyecto">
+
+                    <div class="icono-resumen">
+                        <i class="bi bi-journal-text"></i>
+                    </div>
+
+                    <div>
+                        <h3>¿De qué trata esta investigación?</h3>
+
+                        <p>
+                            Desde una perspectiva formativa, la investigación
+                            busca desarrollar competencias ambientales y
+                            tecnológicas en los estudiantes, integrando
+                            conocimientos de educación ambiental con
+                            experiencias prácticas de robótica educativa.
+                            Esta propuesta pretende fortalecer los procesos
+                            de enseñanza y aprendizaje y contribuir a la
+                            formación de ciudadanos conscientes de su
+                            responsabilidad con el entorno natural.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- OBJETIVOS -->
+                <div class="objetivos-proyecto">
+
+                    <div class="titulo-secundario">
+                        <span>LO QUE QUEREMOS LOGRAR</span>
+                        <h2>Objetivos del proyecto</h2>
+                    </div>
+
+                    <div class="row g-4">
+
+                        <!-- OBJETIVO GENERAL -->
+                        <div class="col-lg-6">
+                            <div class="tarjeta-objetivo objetivo-general">
+
+                                <div class="objetivo-icono">
+                                    <i class="bi bi-bullseye"></i>
+                                </div>
+
+                                <span>OBJETIVO GENERAL</span>
+
+                                <h3>Construir nuevas experiencias de aprendizaje</h3>
+
+                                <p>
+                                    Estructurar un ambiente de aprendizaje para
+                                    la educación ambiental de las instituciones
+                                    educativas del municipio de Tunja, sustentado
+                                    en la implementación de la robótica educativa
+                                    como un instrumento de transposición didáctica.
+                                </p>
+
+                            </div>
+                        </div>
+
+
+                        <!-- OBJETIVOS ESPECÍFICOS -->
+                        <div class="col-lg-6">
+
+                            <div class="tarjeta-objetivo objetivo-especifico">
+
+                                <div class="objetivo-icono">
+                                    <i class="bi bi-list-check"></i>
+                                </div>
+
+                                <span>OBJETIVOS ESPECÍFICOS</span>
+
+                                <ul>
+                                    <li>
+                                        Identificar los conocimientos previos
+                                        de los estudiantes sobre problemáticas
+                                        ambientales y su relación con los ecosistemas.
+                                    </li>
+
+                                    <li>
+                                        Diseñar estrategias pedagógico-didácticas
+                                        que integren la robótica educativa con
+                                        los principios de la educación ambiental.
+                                    </li>
+
+                                    <li>
+                                        Aplicar estrategias que relacionen la
+                                        robótica educativa con la educación ambiental
+                                        en los contextos educativos.
+                                    </li>
+
+                                    <li>
+                                        Evaluar el impacto del ambiente de aprendizaje
+                                        en el desarrollo de competencias ambientales
+                                        y tecnológicas.
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- IMPORTANCIA -->
+                <div class="importancia-proyecto">
+
+                    <div class="titulo-secundario">
+                        <span>¿POR QUÉ ES IMPORTANTE?</span>
+                        <h2>Una propuesta para transformar el aprendizaje</h2>
+                        <p>
+                            La unión entre tecnología y medio ambiente
+                            permite construir experiencias educativas
+                            significativas.
+                        </p>
+                    </div>
+
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="tarjeta-importancia importancia-verde">
+                                <i class="bi bi-tree-fill"></i>
+                                <h3>Conciencia ambiental</h3>
+                                <p>
+                                    Comprender las problemáticas ambientales,
+                                    reconocer los ecosistemas y fomentar
+                                    el cuidado de la naturaleza.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="tarjeta-importancia importancia-azul">
+                                <i class="bi bi-robot"></i>
+                                <h3>Innovación tecnológica</h3>
+                                <p>
+                                    Utilizar la robótica educativa para
+                                    experimentar, crear y desarrollar
+                                    soluciones a diferentes desafíos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="tarjeta-importancia importancia-morado">
+                                <i class="bi bi-mortarboard-fill"></i>
+                                <h3>Aprendizaje significativo</h3>
+                                <p>
+                                    Relacionar los conocimientos escolares
+                                    con situaciones reales mediante
+                                    experiencias prácticas.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- ODS -->
+                <div class="ods-proyecto">
+
+                    <div class="titulo-secundario">
+                        <span>COMPROMISO CON EL FUTURO</span>
+                        <h2>Contribución a los Objetivos de Desarrollo Sostenible</h2>
+                        <p>
+                            La investigación se relaciona especialmente
+                            con dos Objetivos de Desarrollo Sostenible.
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center g-4">
+
+                        <div class="col-md-5">
+                            <div class="tarjeta-ods ods-4">
+
+                                <div class="numero-ods">04</div>
+
+                                <div>
+                                    <span>ODS 4</span>
+                                    <h3>Educación de calidad</h3>
+
+                                    <p>
+                                        Promover oportunidades de aprendizaje
+                                        inclusivas, innovadoras y de calidad,
+                                        integrando la tecnología en los
+                                        procesos educativos.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="tarjeta-ods ods-13">
+
+                                <div class="numero-ods">13</div>
+
+                                <div>
+                                    <span>ODS 13</span>
+                                    <h3>Acción por el clima</h3>
+
+                                    <p>
+                                        Fortalecer la conciencia y la educación
+                                        ambiental para comprender los desafíos
+                                        climáticos y promover acciones responsables.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DATOS DEL PROYECTO -->
+
+
+
+
             </div>
 
+
+            <!-- MENSAJE FINAL -->
+            <div class="mensaje-proyecto">
+
+                <i class="bi bi-lightbulb-fill"></i>
+
+                <h2>¡La tecnología también puede ayudar a cuidar nuestro planeta!</h2>
+
+                <p>
+                    Aprende, experimenta, construye y descubre cómo
+                    tus ideas pueden contribuir a un futuro más sostenible.
+                </p>
+
+                <a href="cartillas.html" class="btn-proyecto">
+                    Explorar las cartillas
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+            </div>
         </section>
+
 
 
         <!-- ================= LLAMADO A LA ACCIÓN ================= -->
@@ -465,7 +868,7 @@
 
                     <a href="cartillas.html">Cartillas</a>
                     <a href="videotutoriales.html">Videotutoriales</a>
-                    <a href="actividades.html">Actividades</a>
+                    <a href="productos.html">Productos</a>
 
                 </div>
 
@@ -501,12 +904,12 @@
 
 
     <!-- Bootstrap JS -->
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
     </script>
 
     <!-- JS propio -->
     <script src="js/index.js"></script>
 
 </body>
+
 </html>
